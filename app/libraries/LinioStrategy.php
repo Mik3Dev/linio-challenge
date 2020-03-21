@@ -9,7 +9,7 @@ class LinioStrategy implements StrategyInterface
     /**
      * getResult implementation
      *
-     * @return void
+     * @return string
      */
     public function getResult() : string
     {
