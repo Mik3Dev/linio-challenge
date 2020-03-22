@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Libraries;
 
 use App\Libraries\ItStrategy;
 use App\Libraries\LinioStrategy;
@@ -39,7 +39,7 @@ class Checker
      * @param [type] $number
      * @return string
      */
-    private function setStrategy(StrategyInterface $strategy, $number) : string
+    public function setStrategy(StrategyInterface $strategy, $number) : string
     {
         $this->strategy = $strategy;
         return $this->strategy->getResult($number);
