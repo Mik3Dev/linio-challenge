@@ -11,7 +11,7 @@ class LinianosStrategy implements StrategyInterface
      *
      * @return string
      */
-    public function getResult() : string
+    public function getResult($param = null) : string
     {
         return 'Linianos';
     }

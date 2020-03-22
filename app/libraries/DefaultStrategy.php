@@ -4,15 +4,15 @@ namespace App\Libraries;
 
 use App\Libraries\StrategyInterface;
 
-class ItStrategy implements StrategyInterface
+class DefaultStrategy implements StrategyInterface
 {
     /**
      * getResult implementation
      *
      * @return string
      */
-    public function getResult($param = null) : string
+    public function getResult($param) : string
     {
-        return 'IT';
+        return $param;
     }
 }

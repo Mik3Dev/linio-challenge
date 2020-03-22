@@ -9,5 +9,5 @@ interface StrategyInterface
      *
      * @return string
      */
-    public function getResult() : string;
+    public function getResult($param) : string;
 }
