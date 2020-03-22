@@ -4,7 +4,7 @@ namespace App\Libraries;
 
 use App\Libraries\StrategyInterface;
 
-class ItStrategy implements StrategyInterface
+class LinianosStrategy implements StrategyInterface
 {
     /**
      * getResult implementation
@@ -13,6 +13,6 @@ class ItStrategy implements StrategyInterface
      */
     public function getResult() : string
     {
-        return 'IT';
+        return 'Linianos';
     }
 }
