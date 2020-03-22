@@ -5,9 +5,25 @@ multiples of both 3 and 5, print "Linianos".
 But here's the catch: you can use only one `if`. No multiple branches, ternary operators
 or `else`.
 
-# Requirements
+## Requirements
 * 1 if
 * You can't use `else`, `else if` or ternary
 * Unit tests
 * Feel free to apply your SOLID knowledge
 * You can write the challenge in any language you want.
+
+## Excecution
+You can use this
+```PHP
+use App\Counter;
+
+$counter = new Counter();
+$list = $counter->getArrayList();
+print(json_encode($list, JSON_PRETTY_PRINT));
+```
+To run a demo run
+```
+php index.php
+```
+## Created by
+* Miguel Acosta
